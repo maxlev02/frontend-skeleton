@@ -4,8 +4,15 @@
   "description": "frontend example",
   "main": "index.js",
   "scripts": {
+    "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "bin": {
+    "hello": "./index.js"
+  }
 }
